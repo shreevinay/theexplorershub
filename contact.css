@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 25px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 12px;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: darkorange;
+    border-bottom: 4px solid darkgoldenrod;
+    transition: 0.2s;
+}
+
+.suggestions a{
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    padding: 3px 15px;
+    border: 1px solid black;
+}
+
+.suggestions a:hover{
+    letter-spacing: 2px;
+    background: burlywood;
+    transition: 0.4s;
+}
+
+.body{
+    background-color: azure;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 50%;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.img h2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.img h1{
+    font-size: 30px;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 25px;
+    height: 30vh;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.insta, .phone, .mail{
+    text-align: center;
+    font-style: italic;
+    padding: 1px 10px;
+    border-bottom: 3px solid burlywood;
+    border-radius: 10px;
+}
+
+.insta:hover, .phone:hover, .mail:hover{
+    background-color: burlywood;
+    transition-duration: 0.4s;
+}

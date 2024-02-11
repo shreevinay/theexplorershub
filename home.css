@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 25px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 12px;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: darkorange;
+    border-bottom: 4px solid darkgoldenrod;
+    transition: 0.2s;
+}
+
+.suggestions a{
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    padding: 3px 15px;
+    border: 1px solid black;
+}
+
+.suggestions a:hover{
+    letter-spacing: 2px;
+    background: burlywood;
+    transition: 0.4s;
+}
+
+.main{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 20px;
+    color: white;
+}
+
+.tours{
+    display: flex;
+}
+
+.tours h2{
+    color: orange;
+    font-size: 20px;
+}
+
+.tours h2:hover{
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+}
+
+.tours a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.tours a:hover{
+    letter-spacing: 3px;
+    color: black;
+    background-color: white;
+    transition-duration: 0.6s;
+}
+
+.places{
+   padding: 5px 10px; 
+   text-align: center;
+}
+
